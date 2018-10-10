@@ -1,0 +1,23 @@
+Checker Plus For Gmail
+  拡張機能を有効にする        ：Ctrl + M
+Evernote Web Clipper
+  拡張機能を有効にする        ：Ctrl + E
+Feedly Notifier
+  拡張機能を有効にする        ：Ctrl + R
+Google翻訳
+  拡張機能を有効にする        ：Ctrl + Shift + E
+LINE
+  拡張機能を有効にする        ：Ctrl + Shift + L
+Mouser Dictionary
+  拡張機能を有効にする        ：Ctrl + D
+OneTab
+  OneTabを表示する            ：Ctrl + Shift + O
+  OneTabに現在のタブを送信する：Ctrl + O
+Regex Search
+  拡張機能を有効にする        ：Ctrl + Shift + F
+Save to Pocket
+  拡張機能を有効にする        ：Ctrl + K
+Web Maker
+  拡張機能を有効にする        ：Ctrl + .
+Yahoo! Japanメール通知
+  拡張機能を有効にする        ：Ctrl + Y

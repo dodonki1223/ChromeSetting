@@ -1,0 +1,162 @@
+"全てのキー設定を解除
+unmapAll
+
+"----------- フォーカス関係 -----------
+"最初の入力ボックスにフォーカスをセット 
+"※２つ目の入力ボックスにフォーカスしたい時は「2I」と入力すること
+map I focusInput
+
+"----------- スクロール関係 -----------
+"スクロールダウン：↓
+map k scrollDown
+
+"スクロールアップ：↑
+map i scrollUp
+
+"スクロールレフト：←
+map j scrollLeft
+
+"スクロールライト：→
+map l scrollRight
+
+"ページダウン
+map o scrollFullPageDown
+
+"ページアップ
+map u scrollFullPageUp
+
+"スクロールをトップへ
+map h scrollToTop
+
+"スクロールをボトムへ
+map ; scrollToBottom
+
+"--------------- URL遷移 --------------
+"戻る
+map K goBack
+
+"進む
+map J goForward
+
+"１つ上の階層のURLへ遷移
+map gu goUp
+
+"ルートURLへ遷移
+map gU goToRoot
+
+"----------- Hit a Hint関係 -----------
+"リンクを開く
+map f LinkHints.activateMode
+
+"リンクを新規タブで開く
+map F LinkHints.activateModeToOpenInNewTab
+
+"リンクを連続して新規タブで開く
+map d LinkHints.activateModeWithQueue
+
+"ページにマークをセット ※「m」の押下後、特定のキーでマークをセットする
+map m Marks.activateCreateMode
+
+"マークをセットしたところに移動する ※「Shift + m」の押下後、特定のキーを押下する
+map M Marks.activateGotoMode
+
+"----- クリップボードツール -----
+"現在のページURLをクリップボードにコピー
+map e copyCurrentUrl
+
+"ページ内のリンクのURLをクリップボードにコピー
+map E LinkHints.activateModeToCopyLinkUrl
+
+"クリップボードの内容で現在のタブでGoogle検索する
+map p openCopiedUrlInCurrentTab
+
+"クリップボードの内容で新しいタブでGoogle検索する
+map P openCopiedUrlInNewTab
+
+"------------- タブツール -------------
+"現在のタブをリロード
+map r reload
+
+"新しいタブを開く
+map t createTab
+
+"次のタブへ移動
+map . nextTab
+
+"前のタブへ移動
+map , previousTab
+
+"最初のタブへ移動
+map 0, firstTab
+
+"最後のタブへ移動
+map $. lastTab
+
+"タブを１つ右へ移動
+map > moveTabRight
+
+"タブを１つ左へ移動
+map < moveTabLeft
+
+"タブの固定ON/OFF
+map O togglePinTab
+
+"タブを閉じる
+map x removeTab
+
+"閉じたタブを開く
+map X restoreTab
+
+"開いているタブを検索する
+map T Vomnibar.activateTabSelection
+
+"------------- 検索ツール -------------
+"Google検索する、URLの履歴を開く
+map l Vomnibar.activate
+
+"新しいタブでGoogle検索する、URLの履歴を開く
+map L Vomnibar.activateInNewTab
+
+"--------- ページ内検索ツール ---------
+"ページ内検索
+map / enterFindMode
+
+"検索にマッチしたものを次のフォーカスへ
+map n performFind
+
+"検索にマッチしたものを前のフォーカスへ
+map N performBackwardsFind
+
+"--------- ブックマークツール ---------
+"ブックマークを開く
+map b Vomnibar.activateBookmarks
+
+"ブックマークを新規タブで開く
+map B Vomnibar.activateBookmarksInNewTab
+
+"------- ビジュアルモードツール -------
+### <ビジュアルモード>
+###   ビジュアルモードは、ページ内のテキストを選択するために使用します。
+###   vを押すと、ビジュアルモードに入ります。
+###   Vを押すと、行選択ビジュアルモードに入ります。
+###   ビジュアルモードでは j、k、h、l、w、e、b等、 多くのVimライクな移動操作を使うことができます。 3eのようなカウンタもサポートしています。
+### <キャレットモード>
+###   キャレットモードは、ページ内のテキストを選択する際の開始点を変更するために使用します。
+###   ビジュアルモードからcを押すとキャレットモードに入ります。 (または、ノーマルモードからvの後にcを押します。)
+###   ビジュアルモードに入る際に、何も選択されていない場合はキャレットモードに入ります。 キャレットモードでは、vを押してビジュアルモードに入る前に、 
+###   適切な位置にキャレット(開始点)を指定することができます。
+###   vとcを使って、ビジュアルモードとキャレットモードを行き来することができます。
+###   ビジュアルモードの終了
+###   <esc> : ビジュアルモードも終了します。
+###   y : 選択したテキストをクリップボードにコピーします。
+
+"ビジュアルモード
+map v enterVisualMode
+
+"ビジュアルラインモード
+map V enterVisualLineMode
+
+"--------------- その他 ---------------
+"ヘルプを表示
+map ? showHelp
+

@@ -1,0 +1,150 @@
+"----------- フォーカス関係 -----------
+"初期フォーカスを解除
+set noautofocus
+
+"最初の入力ボックスにフォーカスをセット
+map I goToInput
+
+"----------- スクロール関係 -----------
+"スクロールダウン：↓
+map k scrollDown
+
+"スクロールアップ：↑
+map i scrollUp
+
+"スクロールレフト：←
+map j scrollLeft
+
+"スクロールライト：→
+map l scrollRight
+
+"ページダウン
+map o scrollFullPageDown
+
+"ページアップ
+map u scrollFullPageUp
+
+"スクロールをトップへ
+map h gg
+
+"スクロールをボトムへ
+map ; G
+
+"--------------- URL遷移 --------------
+"戻る
+map K goBack
+
+"進む
+map J goForward
+
+"１つ上の階層のURLへ遷移
+map du goUpUrl
+
+"ルートURLへ遷移
+map dU goToRootUrl
+
+"----------- Hit a Hint関係 -----------
+"リンクを開く
+map f createHint
+
+"リンクを新規タブで開く
+map F createTabbedHint
+
+"リンクを別ウインドウで開く
+map w createHintWindow
+
+"対象画像をGoogle画像検索
+map gr reverseImage
+
+"----- クリップボードコピーツール -----
+"現在のページのURLをクリップボードにコピー
+map e yankDocumentUrl
+
+"ページ内のリンクのURLをクリップボードにコピー
+map E yankUrl
+
+"------------- タブツール -------------
+"次のタブへ移動
+map . nextTab
+
+"前のタブへ移動
+map , previousTab
+
+"タブを１つ右へ移動
+map > moveTabRight
+
+"タブを１つ左へ移動
+map < moveTabLeft
+
+"タブの固定ON/OFF
+map <C-o> pinTab
+
+"タブを閉じる
+map x closeTab
+
+"閉じたタブを開く
+map X lastClosedTab
+
+"現在のタブ以外をリロード
+map ta reloadAllButCurrent
+
+"現在のタブをミュート
+map tm muteTab
+
+"-------------- qmark設定 -------------
+" gn Or go q：Qiita
+let qmark q = "https://qiita.com/"
+
+" gn Or go p：pocket
+let qmark p = "https://getpocket.com/a/queue/"
+
+" gn Or go f：Feedly
+let qmark f = "https://feedly.com/"
+
+" gn Or go e：EVERNOTE
+let qmark e = "https://www.evernote.com/Home.action"
+
+" gn Or go t：TweetDeck
+let qmark t = "https://tweetdeck.twitter.com/#"
+
+" gn Or go m：Gmail、YahooMail
+let qmark m = ["https://mail.google.com/mail/#inbox","https://jp.mg5.mail.yahoo.co.jp/neo/launch"]
+
+" gn Or go g：Google検索
+let qmark g = "http://www.google.com/"
+
+" gn Or go i：Google画像検索
+let qmark i = "http://images.google.co.jp/"
+
+" gn Or go w：Chromeウェブストア
+let qmark w = "https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon"
+
+" gn Or go d：Googleドライブ
+let qmark d = "https://drive.google.com/drive"
+
+" gn Or go c：Googleカレンダー
+let qmark c = "https://calendar.google.com/calendar"
+
+" gn Or go y：YahooJapan
+let qmark y = "http://www.yahoo.co.jp/"
+
+" gn Or go b：ブックマークマネージャー
+let qmark b = "chrome://bookmarks/"
+
+" gn Or go r：閲覧履歴データを消去するダイアログ
+let qmark r = "chrome://settings/clearBrowserData"
+
+" gn Or go k：拡張機能
+let qmark k = "chrome://extensions/"
+
+" gn Or go h：List of Chrome URLs
+let qmark h = "chrome://about/"
+ 
+"------------- キーの廃止 -------------
+unmap b
+unmap B
+unmap q
+unmap Q
+unmap W
+unmap p
+unmap P
