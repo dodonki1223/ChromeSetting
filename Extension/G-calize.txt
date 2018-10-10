@@ -1,0 +1,7 @@
+★祝日の設定
+  祝日のカレンダーを選択
+  カレンダーIDから： ja.japanese#holiday@group.v.calendar.google.com
+  祝日の色
+    文字色　：#d100a0(赤：209、緑：0  、青：160)
+    背景色　：#ffe8fc(赤：255、緑：232、青：252)
+    色を有効：ON

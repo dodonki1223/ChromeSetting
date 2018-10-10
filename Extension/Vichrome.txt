@@ -1,0 +1,173 @@
+#★Chromeの設定系画面表示★
+#拡張機能画面
+alias extensions TabOpenNew chrome://extensions/
+alias extension  TabOpenNew chrome://extensions/
+alias ext        TabOpenNew chrome://extensions/
+alias ex         TabOpenNew chrome://extensions/
+#設定画面
+alias option     TabOpenNew chrome://settings/browser
+alias opt        TabOpenNew chrome://settings/browser
+alias op         TabOpenNew chrome://settings/browser
+#ダウンロード画面
+alias downloads  TabOpenNew chrome://downloads
+alias download   TabOpenNew chrome://downloads
+alias down       TabOpenNew chrome://downloads
+alias dl         TabOpenNew chrome://downloads
+#履歴画面
+alias history    TabOpenNew chrome://history
+alias hist       TabOpenNew chrome://history
+alias his        TabOpenNew chrome://history
+alias hs         TabOpenNew chrome://history
+#ブックマークマネージャー画面
+alias bookmarks  TabOpenNew chrome://bookmarks
+alias bookmark   TabOpenNew chrome://bookmarks
+alias book       TabOpenNew chrome://bookmarks
+alias bm         TabOpenNew chrome://bookmarks
+#Chrome ウェブストア
+alias webstore   TabOpenNew https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon
+alias store      TabOpenNew https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon
+alias st         TabOpenNew https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon
+#Chrome 隠しページの一覧
+alias hidden     TabOpenNew chrome://about/
+alias hide       TabOpenNew chrome://about/
+alias hid        TabOpenNew chrome://about/
+alias hd         TabOpenNew chrome://about/
+
+#★Vichromeの設定系画面表示★
+#マニュアルページへ移動
+alias manual TabOpenNew http://github.com/k2nr/ViChrome/wiki/Vichrome-User-Manual
+alias man    TabOpenNew http://github.com/k2nr/ViChrome/wiki/Vichrome-User-Manual
+#Vichrome設定画面表示
+alias config TabOpenNew chrome-extension://gghkfhpblkcmlkmpcpgaajbbiikbhpdi/options.html
+alias conf   TabOpenNew chrome-extension://gghkfhpblkcmlkmpcpgaajbbiikbhpdi/options.html
+alias cnf    TabOpenNew chrome-extension://gghkfhpblkcmlkmpcpgaajbbiikbhpdi/options.html
+
+#★戻る&進む★
+#戻る
+nmap r :BackHist
+#進む
+nmap g :ForwardHist
+
+#★タブ移動★
+#左のタブへ移動
+pagecmd * nmap J :TabFocusPrev
+#右のタブへ移動
+pagecmd * nmap L :TabFocusNext
+#タブの一覧を表示
+nmap t :ShowTabList
+
+# スクロール関係をhijklに
+nmap k :ScrollDown
+nmap i :ScrollUp
+nmap l :ScrollRight
+nmap j :ScrollLeft
+nmap o :PageDown
+nmap u :PageUp
+nmap h :GoTop
+nmap ; :GoBottom
+
+#★ページ情報コピー★
+#現在開いているタブのURLをコピー
+nmap w :Copy '%url'
+#現在開いているタブのタイトルをコピー
+nmap W :Copy '%title'
+#現在開いているタブのタイトルとURLをコピー
+alias ct Copy '%title %url'
+
+#★Hit a Hintの設定★
+#現在タブで開く
+nmap e     :GoFMode
+#新しいタブで開く
+nmap E     :GoFMode --newtab
+#連続して新しいタブで開く 効かない……。
+nmap <C-e> :GoFMode --newtab --continuous
+
+#★お気に入りWebページへ移動★
+#Google検索
+nmap <Space>gs  :TabOpenNew http://www.google.com/
+#Google画像検索
+nmap <Space>gi  :TabOpenNew http://images.google.co.jp/
+#GoogleMap
+nmap <Space>gm  :TabOpenNew https://maps.google.co.jp/
+#Chrome ウェブストア
+nmap <Space>gw  :TabOpenNew https://chrome.google.com/webstore/category/apps?utm_source=chrome-ntp-icon
+#Googleドライブ
+nmap <Space>gd  :TabOpenNew https://drive.google.com/drive
+#Googleカレンダー
+nmap <Space>gc  :TabOpenNew https://calendar.google.com/calendar
+#Google翻訳
+nmap <Space>gh  :TabOpenNew https://translate.google.co.jp/
+#Yahoo
+nmap <Space>y  :TabOpenNew http://www.yahoo.co.jp/
+#pocket
+nmap <Space>p  :TabOpenNew https://getpocket.com/a/queue/
+#Feedly
+nmap <Space>f  :TabOpenNew https://feedly.com/
+#EVERNOTE
+nmap <Space>m  :TabOpenNew https://www.evernote.com/Home.action
+#Gmail
+nmap <Space>eg :TabOpenNew https://mail.google.com/mail/#inbox
+#YahooMail
+nmap <Space>ey :TabOpenNew https://jp.mg5.mail.yahoo.co.jp/neo/launch
+#ダウンロード
+nmap <Space>j :TabOpenNew chrome://downloads/
+#履歴
+nmap <Space>h :TabOpenNew chrome://history/
+#ブックマークマネージャー
+nmap <Space>b :TabOpenNew chrome://bookmarks/
+#閲覧履歴データを消去するダイアログ
+nmap <Space>r :TabOpenNew chrome://settings/clearBrowserData
+#拡張機能
+nmap <Space>k :TabOpenNew chrome://extensions/
+
+#★その他★
+#最初の入力ボックスにフォーカスを移動
+nmap I :FocusOnFirstInput
+
+#★必要のないキー設定を無効化★
+# f default f Mode
+nmap f <NOP>
+# F default f Mode(新しいタブで開く)
+nmap F <NOP>
+# Ctrl+d default page half down
+nmap <C-d> <NOP>
+# Ctrl+l default TabFocusNext
+nmap <C-l> <NOP>
+# Ctrl+h default TabFocusPrev
+nmap <C-h> <NOP>
+# Ctrl+f default page half up
+nmap <C-f> <NOP>
+# Ctrl+y default ScrollUp
+nmap <C-y> <NOP>
+# yy default copyurl
+nmap yy <NOP>
+# Ctrl+u default PageHalfUp
+nmap <C-u> <NOP>
+# gt default TabFocusNext
+nmap gt <NOP>
+# gT default TabFocusPrevious
+nmap gT <NOP>
+# gg default GoTop
+nmap gg <NOP>
+# G default GoBottom
+nmap G <NOP>
+# x default TabCloseCurrent
+nmap x <NOP>
+# X default TabCloseCurrent --focusprev
+nmap X <NOP>
+# PDFファイルでC-fを無効化
+pagecmd *.pdf nmap <C-f> <NOP>
+
+#★★★★★★★★★★ メモ ★★★★★★★★★★
+# ブックマークを開く           b
+# 新規タブでブックマークを開く B
+# 現在のタブでGoogle検索       s
+# 新しいタブでGoogle検索       S
+# 入力できる最初の場所を選択   i
+# コマンドモード               :
+# リンク文字検索モード         a
+# 文字列検索モード(上部から)   /
+# 文字列検索モード(下部から)   ?
+# 閉じたタブを開く             u
+
+
