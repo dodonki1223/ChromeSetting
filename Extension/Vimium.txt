@@ -99,7 +99,7 @@ map > moveTabRight
 map < moveTabLeft
 
 "タブの固定ON/OFF
-map O togglePinTab
+map <c-o> togglePinTab
 
 "タブを閉じる
 map x removeTab

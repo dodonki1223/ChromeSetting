@@ -11,8 +11,8 @@ LINE
 Mouser Dictionary
   拡張機能を有効にする        ：Ctrl + D
 OneTab
-  OneTabを表示する            ：Ctrl + Shift + O
-  OneTabに現在のタブを送信する：Ctrl + O
+  OneTabを表示する            ：Ctrl + Shift + ,
+  OneTabに現在のタブを送信する：Ctrl + ,
 Regex Search
   拡張機能を有効にする        ：Ctrl + Shift + F
 Save to Pocket
