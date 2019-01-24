@@ -33,10 +33,10 @@ map ; scrollToBottom
 
 "--------------- URL遷移 --------------
 "戻る
-map K goBack
+map J goBack
 
 "進む
-map J goForward
+map L goForward
 
 "１つ上の階層のURLへ遷移
 map gu goUp
@@ -54,6 +54,7 @@ map F LinkHints.activateModeToOpenInNewTab
 "リンクを連続して新規タブで開く
 map d LinkHints.activateModeWithQueue
 
+"----- ページ内ブックマークツール -----
 "ページにマークをセット ※「m」の押下後、特定のキーでマークをセットする
 map m Marks.activateCreateMode
 
@@ -87,7 +88,7 @@ map . nextTab
 map , previousTab
 
 "最初のタブへ移動
-map 0, firstTab
+map $, firstTab
 
 "最後のタブへ移動
 map $. lastTab
@@ -112,10 +113,10 @@ map T Vomnibar.activateTabSelection
 
 "------------- 検索ツール -------------
 "Google検索する、URLの履歴を開く
-map l Vomnibar.activate
+map y Vomnibar.activate
 
 "新しいタブでGoogle検索する、URLの履歴を開く
-map L Vomnibar.activateInNewTab
+map Y Vomnibar.activateInNewTab
 
 "--------- ページ内検索ツール ---------
 "ページ内検索
@@ -159,4 +160,3 @@ map V enterVisualLineMode
 "--------------- その他 ---------------
 "ヘルプを表示
 map ? showHelp
-
