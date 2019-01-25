@@ -48,10 +48,10 @@ map gU goToRoot
 "リンクを開く
 map f LinkHints.activateMode
 
-"リンクを新規タブで開く
+"リンクを新しいタブで開く
 map F LinkHints.activateModeToOpenInNewTab
 
-"リンクを連続して新規タブで開く
+"リンクを連続して新しいタブで開く
 map d LinkHints.activateModeWithQueue
 
 "----- ページ内ブックマークツール -----
@@ -111,11 +111,11 @@ map X restoreTab
 "開いているタブを検索する
 map T Vomnibar.activateTabSelection
 
-"------------- 検索ツール -------------
-"Google検索する、URLの履歴を開く
+"------------- 履歴ツール -------------
+"履歴を検索して開く
 map y Vomnibar.activate
 
-"新しいタブでGoogle検索する、URLの履歴を開く
+"履歴を検索して新しいタブで開く
 map Y Vomnibar.activateInNewTab
 
 "--------- ページ内検索ツール ---------
@@ -132,7 +132,7 @@ map N performBackwardsFind
 "ブックマークを開く
 map b Vomnibar.activateBookmarks
 
-"ブックマークを新規タブで開く
+"ブックマークを新しいタブで開く
 map B Vomnibar.activateBookmarksInNewTab
 
 "------- ビジュアルモードツール -------
