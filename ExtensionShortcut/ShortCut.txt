@@ -1,23 +1,23 @@
 Checker Plus For Gmail
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + M
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + M
 Evernote Web Clipper
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + E
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + E
 Feedly Notifier
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + R
-Google–|–ó
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + Shift + E
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + R
+Googleç¿»è¨³
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + Shift + E
 LINE
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + Shift + L
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + Shift + L
 Mouser Dictionary
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + D
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + D
 OneTab
-  OneTab‚ğ•\¦‚·‚é            FCtrl + Shift + ,
-  OneTab‚ÉŒ»İ‚Ìƒ^ƒu‚ğ‘—M‚·‚éFCtrl + ,
+  OneTabã‚’è¡¨ç¤ºã™ã‚‹            ï¼šCtrl + Shift + ,
+  OneTabã«ç¾åœ¨ã®ã‚¿ãƒ–ã‚’é€ä¿¡ã™ã‚‹ï¼šCtrl + ,
 Regex Search
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + Shift + F
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + Shift + F
 Save to Pocket
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + K
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + K
 Web Maker
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + .
-Yahoo! Japanƒ[ƒ‹’Ê’m
-  Šg’£‹@”\‚ğ—LŒø‚É‚·‚é        FCtrl + Y
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + .
+Emoty
+  æ‹¡å¼µæ©Ÿèƒ½ã‚’æœ‰åŠ¹ã«ã™ã‚‹        ï¼šCtrl + S
