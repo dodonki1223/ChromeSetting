@@ -79,6 +79,8 @@
 ★：schoo検索                        / ds  / javascript:(function() {     var inputStr = decodeURIComponent('%s')       , url = 'https://schoo.jp/search?q=' + encodeURIComponent(inputStr);     window.open(url); }())
 ★：MicrosoftVirtualAcademy検索      / dm  / javascript:(function() {     var inputStr = decodeURIComponent('%s')       , url = 'https://mva.microsoft.com/search/SearchResults.aspx#!q=' + encodeURIComponent(inputStr) + '&index=2&lang=1033';     window.open(url); }())
 
+Ｏ：Can I use?                       / js  / javascript: (function () {   var s = decodeURIComponent('%s'),     url = 'https://caniuse.com/#search=' + encodeURIComponent(s);   window.open(url); }())
+
 //アドレスバー設定用
 //※基本的に検索ブックマークレットの入力の値を「'%s'」に変えてあげるだけでOK
 javascript:(function() {
@@ -87,5 +89,4 @@ javascript:(function() {
       , url = 'http://dotinstall.com/search?q=' + encodeURIComponent(inputStr);
     
     window.open(url);
-    
 }())
